@@ -31,10 +31,13 @@ You are a required to implement a simplified calculator app.
 - If simpler, just start with one or two functional buttons and only consider the add operation. When you have that working, make additional buttons functional.
 
 ## Extension
-- A new checkbox should be added to the application, "Decimal Only".
-- When this box is ticked, the answer should always be rounded to the nearest whole number.
-
-## Extension 2
 - Add a "store" button underneath the answer.
 - When this button is clicked, the current answer should be stored in a state variable.
 - Add a "recall" button to each of the number displays. When this button is clicked, the currently stored value should be shown on the corresponding number panel.
+
+## Extension 2
+- Add a "." button to the numbers panel of each section
+- When the user presses this button, a decimal separator should be added to the number
+- Only a single separator can be added to each number
+- If no digit appears after the separator, the calculator should consider the number as having no separator (i.e. "1." should be treated as "1").
+- Unlike whole numbers, leading zeros should be allowed after the separator. For example, "00001" is not valid, but "0.00001" is and "1.00001" is.
