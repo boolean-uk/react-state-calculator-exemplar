@@ -27,7 +27,7 @@ You are a required to implement a simplified calculator app.
 - Start by modelling the state of the application
  - What state will you need to keep track of?
  - What user interactions will modify that state and how?
-- Consider carefully your data types for each state...think about how you want to modify the state based on user interaction.
+- Consider carefully your data types for each state...think about how you want to modify the state based on user interaction. You may need to convert between `String` and `Number` to get the functionality you want.
 - If simpler, just start with one or two functional buttons and only consider the add operation. When you have that working, make additional buttons functional.
 
 ## Extension
